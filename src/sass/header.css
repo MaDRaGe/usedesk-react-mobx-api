@@ -1,0 +1,6 @@
+.header {
+  grid-area: header;
+  height: 50px; }
+
+.header .logo {
+  width: 30px; }

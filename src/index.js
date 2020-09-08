@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App.jsx";
+import "./sass/style.sass";
+import RootStore from "./mobx/store";
+import { reaction } from "mobx";
+import { Provider } from "mobx-react";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const rootStore = new RootStore();
+reaction(
+  () => {
+    return rootStore.postStore.posts.map((post) => post);
+  },
+  (posts) => {
+    console.log(posts[0].userId);
+  }
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+  <Provider rootStore={rootStore}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
