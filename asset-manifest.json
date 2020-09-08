@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/usedesk-react-mobx-api/static/css/main.336d09ff.chunk.css",
+    "main.js": "/usedesk-react-mobx-api/static/js/main.8366121a.chunk.js",
+    "main.js.map": "/usedesk-react-mobx-api/static/js/main.8366121a.chunk.js.map",
+    "runtime-main.js": "/usedesk-react-mobx-api/static/js/runtime-main.3a70becb.js",
+    "runtime-main.js.map": "/usedesk-react-mobx-api/static/js/runtime-main.3a70becb.js.map",
+    "static/js/2.13456fa4.chunk.js": "/usedesk-react-mobx-api/static/js/2.13456fa4.chunk.js",
+    "static/js/2.13456fa4.chunk.js.map": "/usedesk-react-mobx-api/static/js/2.13456fa4.chunk.js.map",
+    "index.html": "/usedesk-react-mobx-api/index.html",
+    "precache-manifest.e17b7375400257cc527acfe209d6e3ea.js": "/usedesk-react-mobx-api/precache-manifest.e17b7375400257cc527acfe209d6e3ea.js",
+    "service-worker.js": "/usedesk-react-mobx-api/service-worker.js",
+    "static/css/main.336d09ff.chunk.css.map": "/usedesk-react-mobx-api/static/css/main.336d09ff.chunk.css.map",
+    "static/js/2.13456fa4.chunk.js.LICENSE.txt": "/usedesk-react-mobx-api/static/js/2.13456fa4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a70becb.js",
+    "static/js/2.13456fa4.chunk.js",
+    "static/css/main.336d09ff.chunk.css",
+    "static/js/main.8366121a.chunk.js"
+  ]
+}
