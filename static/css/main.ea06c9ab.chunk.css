@@ -1,0 +1,2 @@
+.ui.container.app{display:grid;grid-template-areas:"header" "postList" "footer";min-height:100vh;grid-template-rows:80px auto 80px}.ui.container.app *{box-sizing:border-box}.header{grid-area:header;height:80px}.header .logo{width:30px}.post-list{grid-area:postList}.post-list th{cursor:pointer!important}.post-list .checkbox{margin-right:20px}.footer{grid-area:footer;display:flex;align-items:center;justify-content:center}
+/*# sourceMappingURL=main.ea06c9ab.chunk.css.map */

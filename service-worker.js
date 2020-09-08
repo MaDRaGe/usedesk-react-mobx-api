@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/usedesk-react-mobx-api/precache-manifest.e17b7375400257cc527acfe209d6e3ea.js"
+  "/usedesk-react-mobx-api/precache-manifest.ee08c29f59d0cb1cf13d6252424c359d.js"
 );
 
 self.addEventListener('message', (event) => {
